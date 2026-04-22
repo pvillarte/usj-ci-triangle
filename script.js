@@ -30,7 +30,7 @@ function getTriangleType(lengthA, lengthB, lengthC) {
       if ( (a==b) && (b==c)) {
         type = EQUILATERAL;
       } else if ( (a==b) || (b==c) || (a==c)) {
-        type = ISOSCELES;
+        type = SCALENE;
       } else {
         type = ISOSCELES;
       }
